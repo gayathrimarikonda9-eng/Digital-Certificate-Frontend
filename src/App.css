@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.header {
+  background: #123b70;
+  color: white;
+  text-align: center;
+  padding: 28px 16px;
+  border-radius: 14px;
+  margin-bottom: 22px;
+}
+
+.header h1 {
+  margin: 0 0 10px;
+  font-size: 27px;
+}
+
+.header p {
+  margin: 0;
+}
+
+.panel {
+  background: white;
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #0000000d;
+}
+
+.panel h2 {
+  color: #123b70;
+  margin-top: 0;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 7px;
+  background: #1557a6;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+button:hover {
+  opacity: 0.95;
+}
+
+button.verify {
+  background: #16805d;
+}
+
+.message {
+  padding: 12px;
+  background: #eaf4ff;
+  border-radius: 7px;
+  overflow-wrap: anywhere;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+th {
+  background: #eaf1fb;
+}
+
+footer {
+  text-align: center;
+  color: #64748b;
+  padding: 16px;
+}
